@@ -13,9 +13,22 @@
   
   To install the project one simply navigates to the site and clicks "Install."
 
+  ## Website
+
+  https://pwa-text-editor-3-y650.onrender.com/
+
   ## Usage
 
-  To use the project one simply enters text on a given line.
+  To use the project one simply enters text on a given line. Deploying from Render seems to have caused some difficulties - one may need to do the following steps to resolve the issue:
+
+  Right-click on the page
+  Select 'Inspect'
+  Navigate to 'Applications'
+  Select 'Service Workers'
+  Select 'Unregister'
+
+  That should resolve any difficulties if the text does not persist with refreshing the page.
+
 
   ## Credits
 
